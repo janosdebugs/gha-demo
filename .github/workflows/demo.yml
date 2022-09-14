@@ -12,4 +12,4 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Demo
-        uses: .
+        uses: janosdebugs/gha-demo
