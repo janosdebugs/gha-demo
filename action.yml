@@ -6,4 +6,4 @@ branding:
 inputs: {}
 runs:
   using: docker
-  image: ghcr.io/janosdebugs/gha-demo:latest
+  image: docker://ghcr.io/janosdebugs/gha-demo:latest
