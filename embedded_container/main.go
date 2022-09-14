@@ -18,4 +18,10 @@ func main() {
     for _, f := range files {
         fmt.Println(f.Name())
     }
+
+    cwd, err := os.Getwd()
+    if err != nil {
+        panic(err)
+    }
+    fmt.Printf("The current working directory is: %s\n", cwd)
 }
