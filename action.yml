@@ -1,0 +1,9 @@
+name: 'gha-demo'
+description: 'A very simple demo'
+branding:
+  icon: 'cast'
+  color: 'orange'
+inputs: {}
+runs:
+  using: docker
+  image: Dockerfile

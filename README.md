@@ -1,0 +1,1 @@
+This directory contains the action itself that is being used. The action is a Docker action.

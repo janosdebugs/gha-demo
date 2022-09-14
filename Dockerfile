@@ -1,0 +1,1 @@
+FROM ghcr.io/janosdebugs/gha-demo:latest
